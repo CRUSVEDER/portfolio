@@ -447,7 +447,7 @@ nav .fas{
         right: -200px;
         width: 200px;
         height: 100vh;
-        background: #cac9c9;
+        background: #2c2b2b62;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.2s;
