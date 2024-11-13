@@ -497,7 +497,7 @@ nav .fas{
 }
 
 #msg{
-    color: rgb(167, 188, 200);
+    color: rgb(167, 188, 200, 0.4);
     margin-top: -40px;
     display: block;
 }
