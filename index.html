@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Gholap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2a17786b85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/crus-high-resolution-logo-transformed.png" alt="logo" width="300">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" style="color: black;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" style="color: black;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, I'm <span> Yash Gholap</span></h1>
+            <p>>_computer science engineering student <br>>_Mumbai, India</p>
+
+        </div>
+    </div>
+</div>
+
+<!------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/yoriichi-tsugikuni-g94noiw9g5pnh6zb-transformed.webp" style="box-shadow: 10px 10px rgba(200, 167, 167, 0);">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About me</h1>
+                <p>
+                    <b>computer science engineer specialized in Internet of Things, CyberSecurity and blockchain technology</b> <br><br>
+                    <i>"It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to."</i>
+                    <br> ~<b>Bilbo Baggins</b>
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                    <p class="tab-links" onclick="opentab('experience')"><b>Experience</b></p>
+                    <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                    <p class="tab-links" onclick="opentab('certificates')"><b>Certificates</b></p>
+                    <p class="tab-links" onclick="opentab('current')"><b>Current activities</b></p>
+                </div>
+                <div class="tab-contains active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming languages</span> <i class="fa-solid fa-code" style="color: rgb(167, 188, 200);"></i> <br>C/C++<br>C#<br>Java<br>Python<br>Javascript</li>
+                        <li><span>Databases</span> <i class="fa-solid fa-database" style="color: rgb(167, 188, 200);"></i> <br>MySQL/PostgreSQL<br>MongoDB</li>
+                        <li><span>Devops </span><i class="fa-brands fa-git-alt" style="color: rgb(167, 188, 200);"></i><br>Bash<br>Linux<br>Git</li>
+                        <li><span>Frameworks </span><i class="fa-brands fa-stack-overflow" style="color: rgb(167, 188, 200);"></i><br>.NET <br>Spring<br> Node <br> React <br> Tailwind <br> PyTorch</li>
+                        
+                        <li><span>Deployment </span> <i class="fa-solid fa-tools" style="color: rgb(167, 188, 200);"></i><br>Microsoft Azure <br> Vercel </li>
+                    </ul>
+                </div>
+                <div class="tab-contains" id="experience">
+                    <ul>
+                        <li><span>Internships </span><i class="fa-solid fa-laptop-code" style="color: rgb(167, 188, 200);"></i><br><br><b>Fullstack Developer Intern </b><br>2 months <br> used technologies:  Vercel,  <br>-> remote</li><br>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contains" id="education">
+                    <ul>
+                        <li><span>20xx-Current -- Bachelor of Computer Engineer Degree</span><br>Mumbai University <i class="fa-solid fa-graduation-cap" style="color: rgb(167, 188, 200);"></i> <br> Mumbai, India</li><br>
+                        <li><span>20xx-20xx -- High-School</span><br>High School  <i class="fa-solid fa-school" style="color: rgb(167, 188, 200);"></i><br> Mumbai, India</li>
+                    </ul>
+                </div>
+                <div class="tab-contains" id="certificates">
+                    <ul>
+                        <li><span>Web Dev</span><br>Remote<i class="fa-solid fa-certificate" style="color: rgb(167, 188, 200);"></i><br> 20xx month. <br>CID: IPIC#13517</li>
+                        <li><span>Python</span><br>Location<i class="fa-solid fa-certificate" style="color: rgb(167, 188, 200);"></i><br> 20xx month. <br>ID:Number</li>
+                    </ul>
+                </div>
+                <div class="tab-contains" id="current">
+                    <ul>
+                       
+                        <li><span>Group project</span> <br>me and my group members Worked on android application On CyberSecurity "Image Steganography"</li><br>
+                                   me and my group members Working on Ai Documentation Tools
+                        <li><span>Hobbies</span><br> Gym, Reading Novels and Coding...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------portfolio---------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/gacha-site.jpg">
+                <div class="layer">
+                    <h3><b>Gacha-site</b></h3>
+                    <p>Genshin Impact is an expansive open-world action RPG that requires strategic planning and resource management. Our tools aim to assist players in navigating the complexities of the game, from tracking achievements to optimizing character builds.</p>
+                    <a href="https://github.com/CRUSV3D3R/GachaSite"><i class="fa-brands fa-github fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gacha-site.jpg">
+                <div class="layer">
+                    <h3><b>Gacha-site</b></h3>
+                    <p>Genshin Impact is an expansive open-world action RPG that requires strategic planning and resource management. Our tools aim to assist players in navigating the complexities of the game, from tracking achievements to optimizing character builds.</p>
+                    <a href="https://github.com/CRUSV3D3R/"><i class="fa-brands fa-github fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gacha-site.jpg">
+                <div class="layer">
+                    <h3><b>Gacha-site</b></h3>
+                    <p>Genshin Impact is an expansive open-world action RPG that requires strategic planning and resource management. Our tools aim to assist players in navigating the complexities of the game, from tracking achievements to optimizing character builds.</p>
+                    <a href="https://github.com/CRUSV3D3R/"><i class="fa-brands fa-github fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gacha-site.jpg">
+                <div class="layer">
+                    <h3><b>Gacha-site</b></h3>
+                    <p>Genshin Impact is an expansive open-world action RPG that requires strategic planning and resource management. Our tools aim to assist players in navigating the complexities of the game, from tracking achievements to optimizing character builds. </p>
+                    <a href="https://github.com/CRUSV3D3R/"><i class="fa-brands fa-github fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gacha-site.jpg">
+                <div class="layer">
+                    <h3><b>Gacha-site</b></h3>
+                    <p>Genshin Impact is an expansive open-world action RPG that requires strategic planning and resource management. Our tools aim to assist players in navigating the complexities of the game, from tracking achievements to optimizing character builds. </p>
+                    <a href="https://github.com/CRUSV3D3R/"><i class="fa-brands fa-github fa-xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>yashgholap777@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/CRUSV3D3R"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://dev.to/"><i class="fa-brands fa-dev"></i></a>
+                    <a href="https://ko-fi.com/crusveder"><i class="fa-solid fa-heart"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV <i class="fa-regular fa-circle-down" style="font-size: 15px;"></i></a>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright (c) 2024 Yash</p>
+    </div>
+</div>
+
+
+
+
+<script>
+window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var threshold = 50; 
+    if (scrollPosition > threshold) {
+        closemenu();
+    }
+});
+
+
+
+    var sidemenu = document.getElementById("sidemenu");
+
+function openmenu() {
+    sidemenu.style.right = "0px";
+}
+
+function closemenu() {
+    sidemenu.style.right = "-200px";
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwIqkLzvmxxseHCsOD6KyMDYeJ8ZZJvXuQ0iKPAjetk87kdq5u2gnqgboh6jcf5Mb2Cbw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
