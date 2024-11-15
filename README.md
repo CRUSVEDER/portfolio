@@ -39,5 +39,5 @@ This project and its contents are protected under copyright law. Any unauthorize
 ## 🙏 Acknowledgments
 
 - Font Awesome for icons
-- 
+  
 For any inquiries regarding usage or permissions, please contact the repository owner.
