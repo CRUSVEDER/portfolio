@@ -29,6 +29,18 @@ body{
 }
 
 /* Optional: Add an overlay to improve text readability */
+
+header::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.164); /* Adjust the last value (0.5) for darkness */
+    z-index: 0;
+
+}
 body::before {
     content: "";
     position: fixed;
