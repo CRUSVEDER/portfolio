@@ -29,7 +29,6 @@ body{
 }
 
 /* Optional: Add an overlay to improve text readability */
-
 body::before {
     content: "";
     position: fixed;
@@ -39,10 +38,12 @@ body::before {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.164); /* Adjust the last value (0.5) for darkness */
     z-index: 2;
+    
 
 }
 
 .container{
+    
     padding: 10px;
 }
 
@@ -435,7 +436,9 @@ body::before {
 nav .fas{
     display: none;
 }
-
+.hide-icon {
+    display: none;
+}
 
 @media only screen and (max-width:600px){
     #header{
@@ -449,7 +452,9 @@ nav .fas{
         width: 100vw;
         overflow-x: hidden;
     }
-
+    body::before {
+        pointer-events: none;
+    }
     .header-text{
         margin-top: 80%;
         font-size: 17px;
@@ -463,7 +468,7 @@ nav .fas{
 
     nav .fas{
         display: block;
-       
+        font-size: 25px;
     }
 
     nav ul{
@@ -533,7 +538,7 @@ nav .fas{
 }
 
 #msg{
-    color: rgb(167, 188, 200);
+    color: rgb(206, 206, 206);
     margin-top: -40px;
     display: block;
 }
