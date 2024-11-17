@@ -39,7 +39,6 @@ body::before {
     background-color: rgba(0, 0, 0, 0.164); /* Adjust the last value (0.5) for darkness */
     z-index: 2;
     
-
 }
 
 .container{
