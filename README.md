@@ -5,6 +5,7 @@ A professionally crafted, responsive portfolio website showcasing skills and pro
 ## 🚀 Overview
 
 - **Live Site:** https://crusveder.github.io/portfolio/
+-  **Live Site 2:** https://myportfolio-yash.vercel.app/
 - **Built With:** HTML, CSS, JavaScript
 - **Features:** 
   - Responsive design
